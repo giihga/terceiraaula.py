@@ -1,7 +1,4 @@
 nome = input('Qual é seu nome ? ')
-idade = input('Quantos anos voce tem ?')
-formacao = input('Qual a sua formação academica?')
-ocupacao = input('Qual a sua Ocupação ? ')
-salario = input('Quanto você recebe de salario? ')
+salario = input('Quanto você recebeu de salario no mes de abril? ')
 
-print( nome,idade,formacao,oupacao,salario )
+print('O salario de {} no mes de abril foi de {} reais'.format(nome, salario))
